@@ -1,0 +1,20 @@
+package: wechat-client
+ignore:
+- wechat-client
+- golang.org
+import:
+- package: github.com/golang/protobuf
+  version: ~1.3.1
+  subpackages:
+  - proto
+- package: github.com/patrickmn/go-cache
+  version: ~2.1.0
+- package: github.com/satori/go.uuid
+  version: ~1.2.0
+- package: golang.org/x/net
+- package: google.golang.org/grpc
+  repo: https://github.com/grpc/grpc-go
+  vcs: git
+- package: google.golang.org/genproto
+  repo: https://github.com/google/go-genproto
+  vcs: git

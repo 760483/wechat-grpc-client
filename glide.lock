@@ -1,0 +1,60 @@
+hash: 1725f44d0a0d1b622037da016bd8d0a466c9d369fbdce8ae16d1a8ad54f8ea2a
+updated: 2019-05-30T13:59:58.942002+08:00
+imports:
+- name: github.com/golang/protobuf
+  version: b5d812f8a3706043e23a9cd5babf2e5423744d30
+  subpackages:
+  - proto
+  - ptypes
+  - ptypes/any
+  - ptypes/duration
+  - ptypes/timestamp
+- name: github.com/patrickmn/go-cache
+  version: a3647f8e31d79543b2d0f0ae2fe5c379d72cedc0
+- name: github.com/satori/go.uuid
+  version: f58768cc1a7a7e77a3bd49e98cdd21419399b6a3
+- name: golang.org/x/net
+  version: ""
+- name: google.golang.org/genproto
+  version: c2c4e71fbf6989c3e46a18d65cb88c288f8a3a55
+  repo: https://github.com/google/go-genproto
+  vcs: git
+  subpackages:
+  - googleapis/rpc/status
+- name: google.golang.org/grpc
+  version: 0435a4bb26ac754b679412c2d7f93748b99897ca
+  repo: https://github.com/grpc/grpc-go
+  vcs: git
+  subpackages:
+  - balancer
+  - balancer/base
+  - balancer/roundrobin
+  - binarylog/grpc_binarylog_v1
+  - codes
+  - connectivity
+  - credentials
+  - credentials/internal
+  - encoding
+  - encoding/proto
+  - grpclog
+  - internal
+  - internal/backoff
+  - internal/balancerload
+  - internal/binarylog
+  - internal/channelz
+  - internal/envconfig
+  - internal/grpcrand
+  - internal/grpcsync
+  - internal/syscall
+  - internal/transport
+  - keepalive
+  - metadata
+  - naming
+  - peer
+  - resolver
+  - resolver/dns
+  - resolver/passthrough
+  - stats
+  - status
+  - tap
+testImports: []

@@ -1,0 +1,7 @@
+.idea/
+run.log
+runtime/log/*.log
+runtime/download/voice/*.silk
+runtime/download/img/*.jpg
+runtime/qrcode/*.jpg
+
